@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+    <!-- 盒子模型 集装箱 从上到下，从左到右文档流 -->
+    <!-- block 两列式布局，三栏式布局 -->
+    <!-- <section>section 标签 h5标签 兼容性问题 类名</section> -->
+    <div class="section">
+        <div class="wrapper">
+            <div class="side">
+                <div class="online">
+                    <div class="mod">
+                        <h2>
+                            热门话题
+                            <span class="pl">&nbsp;(
+                                <a href="#" class="" target="_self">去话题广场</a>
+                                )</span>
+                        </h2>
+                        <ul>
+                            <li class="rec_topics">
+                                <a href="" class="rec_topics_name">寺庙里的猫</a>
+                                <span class="rec_topics_subtitle">8913人浏览</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="mod">
+                    <!-- albums  首页推的照片 -->
+                    <div class="albums">
+                        <!-- 四宫格 -->
+                        <!-- pc端 为什么不用 background-image 放置图片？
+                         mobile 盒子大小式响应式 rem +cover Pc端 算死像素 img -->
+                        <ul>
+                            <li>
+                                <div class="pic">
+                                    <a href="#"><img src="./1.jpg" alt=""></a>
+                                </div>
+                                <div class="pic">
+                                    <a href="#"><img src="./2.jpg" alt=""></a>
+                                </div>
+                                
+                                <a href="#">跳过胡同</a><span class="num">105张照片</span>
+                            </li>
+                            <li>
+                                <div class="pic">
+                                    <a href="#"><img src="./3.jpg" alt=""></a>
+                                </div>
+                                <div class="pic">
+                                    <a href="#"><img src="./4.jpg" alt=""></a>
+                                </div>
+                                
+                                <a href="#">跳过胡同</a><span class="num">105张照片</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
